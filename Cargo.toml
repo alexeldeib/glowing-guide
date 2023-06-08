@@ -1,0 +1,12 @@
+[package]
+name = "glowing-guide"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+epoll = "4.3.1"
+eyre = "0.6.8"
+polling = { git = "https://github.com/alexeldeib/polling.git" }
+rustix = "0.37.19"
